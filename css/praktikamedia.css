@@ -1,0 +1,69 @@
+@media (max-width: 562px) {
+  .part1::after {
+    width: 100% !important;
+  }
+  .main-product-area {
+    width: 100%;
+  }
+  .main-product-area .container1 {
+    width: 100% !important;
+  }
+  .main-product-area .container1 .img-box img {
+    width: 100% !important;
+  }
+  .main-product-area .containerr3 {
+    height: 1500px !important;
+  }
+  .main-product-area .containerr3 .container3-header {
+    flex-direction: column;
+  }
+  .main-product-area .containerr3 .container3-header .box {
+    width: 100%;
+  }
+  .sign-in {
+    transform: translateY(1300px);
+  }
+  .last-section {
+    margin-top: -2100px;
+  }
+  .pay-area {
+    display: none;
+  }
+}
+@media (min-width: 562px) and (max-width: 762px) {
+  .sidebarr {
+    display: none;
+  }
+  .parent-section {
+    padding: 0;
+  }
+  .main-product-area {
+    border: 2px solid red;
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+  }
+  .main-product-area .containers {
+    border: 2px solid blue;
+    width: 100% !important;
+    display: flex;
+  }
+  .main-product-area .containers .container1 {
+    border: 1px solid;
+  }
+  .main-product-area .containers .container2 {
+    border: 2px solid yellow;
+    width: 50%;
+  }
+  .main-product-area .containers .container2 .pay img {
+    width: 20% !important;
+  }
+  .main-product-area .container3-header {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-product-area .container3-header .box {
+    border: 1px solid;
+    width: 100%;
+  }
+}/*# sourceMappingURL=praktikamedia.css.map */
